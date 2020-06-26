@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="lib/bootstrap-4.5.0-dist/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="lib/bootstrap-4.5.0-dist/css/gallery-grid.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+
+
+    
+
+<body>
+
+
+
+
+
+  <nav class="navbar fixed-top navbar-expand navbar-light bg-light">
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+
+        <ul class="navbar-nav">
+
+            <li class="nav-item-active">
+
+                <a class="nav-link" href="#/">HOME O PHOTO<span class="sr-only">(current)</span></a>
+
+            </li>
+
+            <li class="nav-item">
+
+                <a class="nav-link" href="rolam.html">Rólam</a>
+
+            </li>
+
+            <li class="nav-item">
+
+                <a class="nav-link" href="informaciok.html">Információk</a>
+
+            </li>
+
+            <li class="nav-item">
+
+                <a class="nav-link" href="arak.html">Árlista</a>
+
+            </li>
+
+            <li class="nav-item">
+
+                <a class="nav-link" href="kapcsolat.html">Kapcsolat</a>
+
+            </li>
+
+        </ul>
+
+    </div>
+
+</nav>
+
+
+
+  <div class="left" style="position:fixed; height:80%; top:43px; left:0px; width:160px;">
+
+    <a href="https://www.kejholgyek.hu/">
+
+      <img src="img/kejholgyek.gif" style="width:160px; padding-top:9px;">
+
+    </a>
+
+  </div>
+
+
+
+  <div class="tz-gallery" style="padding-left:200px">
+
+    <h1 style="text-align:center; padding-top: 22px;">Üdvözöllek!</h1>
+
+    <div class="lightbox">
+
+      <a href="/epulet.html">
+
+        <img id="img-1" src="https://jaxenter.com/wp-content/uploads/2019/09/shutterstock_753972046-350x233.jpg"
+
+          alt="Programmer" style="width: 300px; height: 168px;margin-bottom: 10px;margin-right: 10px;" title="Épület"
+
+          onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+
+      </a>
+
+      <a href="/gasztro.html">
+
+        <img src="https://jaxenter.com/wp-content/uploads/2019/09/shutterstock_753972046-350x233.jpg" alt="Programmer"
+
+          style="width: 300px; height: 168px; margin-bottom: 10px;margin-right: 10px;" title="Gasztro"
+
+          onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+
+      </a>
+
+      <a href="/termeszet.html">
+
+        <img src="https://jaxenter.com/wp-content/uploads/2019/09/shutterstock_753972046-350x233.jpg" alt="Programmer"
+
+          style="width: 300px; height: 168px; margin-bottom: 10px;margin-right: 10px;" title="Természet"
+
+          onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+
+      </a>
+
+      <a href="/enterier.html">
+
+        <img src="https://jaxenter.com/wp-content/uploads/2019/09/shutterstock_753972046-350x233.jpg" alt="Programmer"
+
+          style="width: 300px; height: 168px; margin-bottom: 10px;margin-right: 10px;" title="Enterier"
+
+          onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+
+      </a>
+
+      <a href="/portre.html">
+
+        <img src="https://jaxenter.com/wp-content/uploads/2019/09/shutterstock_753972046-350x233.jpg" alt="Programmer"
+
+          style="width: 300px; height: 168px; margin-bottom: 10px;margin-right: 10px;" title="Portré"
+
+          onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+
+      </a>
+
+      <a href="/gyermek.html">
+
+        <img src="https://jaxenter.com/wp-content/uploads/2019/09/shutterstock_753972046-350x233.jpg" alt="Programmer"
+
+          style="width: 300px; height: 168px; margin-bottom: 10px;margin-right: 10px;" title="Gyermek"
+
+          onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+
+      </a>
+
+      <a href="/csaladi.html">
+
+        <img src="https://jaxenter.com/wp-content/uploads/2019/09/shutterstock_753972046-350x233.jpg" alt="Programmer"
+
+          style="width: 300px; height: 168px; margin-bottom: 10px;margin-right: 10px;" title="Családi"
+
+          onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+
+      </a>
+
+      <a href="/kiskedvenc.html">
+
+        <img src="https://jaxenter.com/wp-content/uploads/2019/09/shutterstock_753972046-350x233.jpg" alt="Programmer"
+
+          style="width: 300px; height: 168px; margin-bottom: 10px;margin-right: 10px;" title="Kiskedvenc"
+
+          onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+
+      </a>
+
+      <a href="/esemeny.html">
+
+        <img src="https://jaxenter.com/wp-content/uploads/2019/09/shutterstock_753972046-350x233.jpg" alt="Programmer"
+
+          style="width: 300px; height: 168px; margin-bottom: 10px;margin-right: 10px;" title="Esemény"
+
+          onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+
+      </a>
+
+      <a href="/esemeny.html">
+
+        <img src="https://jaxenter.com/wp-content/uploads/2019/09/shutterstock_753972046-350x233.jpg" alt="Programmer"
+
+          style="width: 300px; height: 168px; margin-bottom: 10px;margin-right: 10px;" title="Párok"
+
+          onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+
+      </a>
+
+      <a href="/glamour.html">
+
+        <img src="https://jaxenter.com/wp-content/uploads/2019/09/shutterstock_753972046-350x233.jpg" alt="Programmer"
+
+          style="width: 300px; height: 168px; margin-bottom: 10px;margin-right: 10px;" title="Glamour"
+
+          onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+
+      </a>
+
+      <a href="/figyelmeztetes.html">
+
+        <img src="https://jaxenter.com/wp-content/uploads/2019/09/shutterstock_753972046-350x233.jpg" alt="Programmer"
+
+          style="width: 300px; height: 168px; margin-bottom: 10px;margin-right: 10px;" title="Erotika"
+
+          onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+
+      </a>
+
+    </div>
+
+  </div>
+
+
+
+  <div id="myModal" class="modal">
+
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+
+    <div class="modal-content">
+
+
+
+      <div class="mySlides">
+
+        <div class="numbertext">1 / 4</div>
+
+        <img src="img_nature_wide.jpg" style="width:100%">
+
+      </div>
+
+
+
+      <div class="mySlides">
+
+        <div class="numbertext">2 / 4</div>
+
+        <img src="img_snow_wide.jpg" style="width:100%">
+
+      </div>
+
+
+
+      <div class="mySlides">
+
+        <div class="numbertext">3 / 4</div>
+
+        <img src="img_mountains_wide.jpg" style="width:100%">
+
+      </div>
+
+
+
+      <div class="mySlides">
+
+        <div class="numbertext">4 / 4</div>
+
+        <img src="img_lights_wide.jpg" style="width:100%">
+
+      </div>
+
+
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+
+      <div class="caption-container">
+
+        <p id="caption"></p>
+
+      </div>
+
+
+
+
+
+      <div class="column">
+
+        <img class="demo cursor" src="img_nature_wide.jpg" style="width:100%" onclick="currentSlide(1)"
+
+          alt="Nature and sunrise">
+
+      </div>
+
+      <div class="column">
+
+        <img class="demo cursor" src="img_snow_wide.jpg" style="width:100%" onclick="currentSlide(2)" alt="Snow">
+
+      </div>
+
+      <div class="column">
+
+        <img class="demo cursor" src="img_mountains_wide.jpg" style="width:100%" onclick="currentSlide(3)"
+
+          alt="Mountains and fjords">
+
+      </div>
+
+      <div class="column">
+
+        <img class="demo cursor" src="img_lights_wide.jpg" style="width:100%" onclick="currentSlide(4)"
+
+          alt="Northern Lights">
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+  <script>
+
+    function openModal() {
+
+      document.getElementById("myModal").style.display = "block";
+
+    }
+
+
+
+    function closeModal() {
+
+      document.getElementById("myModal").style.display = "none";
+
+    }
+
+
+
+    var slideIndex = 1;
+
+    showSlides(slideIndex);
+
+
+
+    function plusSlides(n) {
+
+      showSlides(slideIndex += n);
+
+    }
+
+
+
+    function currentSlide(n) {
+
+      showSlides(slideIndex = n);
+
+    }
+
+
+
+    function showSlides(n) {
+
+      var i;
+
+      var slides = document.getElementsByClassName("mySlides");
+
+      var dots = document.getElementsByClassName("demo");
+
+      var captionText = document.getElementById("caption");
+
+      if (n > slides.length) { slideIndex = 1 }
+
+      if (n < 1) { slideIndex = slides.length }
+
+      for (i = 0; i < slides.length; i++) {
+
+        slides[i].style.display = "none";
+
+      }
+
+      for (i = 0; i < dots.length; i++) {
+
+        dots[i].className = dots[i].className.replace(" active", "");
+
+      }
+
+      slides[slideIndex - 1].style.display = "block";
+
+      dots[slideIndex - 1].className += " active";
+
+      captionText.innerHTML = dots[slideIndex - 1].alt;
+
+    }
+
+  </script>
+
+
+
+</body>
+
+
+
+</html>
